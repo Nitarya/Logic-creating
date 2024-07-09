@@ -1,0 +1,4 @@
+var userInput=prompt("please enter value to convert into miles");
+const factor = 0.621371;
+const kilometerToMiles=userInput*factor;
+console.log(`${userInput} km is = ${kilometerToMiles} miles`)
